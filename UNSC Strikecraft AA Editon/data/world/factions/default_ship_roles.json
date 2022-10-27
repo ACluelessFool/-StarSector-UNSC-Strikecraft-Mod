@@ -1,0 +1,151 @@
+{
+	# should be a copy of "combatSmall", minus variants that are annoying to fight in low numbers
+	# for example, no Hyperions or fast beam-based kiting loadouts, or ships with damper field
+	"combatSmallForSmallFleet":{
+		
+	},
+	"combatSmall":{
+
+	},
+	"combatMedium":{
+		"UNSC_Frigate_strident_Supportalt":1.5,
+		"UNSC_Frigate_strident_supporthev":1.5,
+		"unscaa_pelican_Standard":3,
+		"unscaa_pelican_Combat":1,
+		"unscaa_vulture_Leader":0.5,
+		"unscaa_vulture_Command":0.5,
+		"unscaa_vulture_Fortress":0.5,
+		"unscaa_longsword_Standard":0.5,
+		"unscaa_sabre_Standard":0.5,
+	},
+	"combatLarge":{
+		"unscaa_pelican_Standard":5,
+		"unscaa_pelican_Combat":2,
+		"unscaa_vulture_Leader":1,
+		"unscaa_vulture_Command":1,
+		"unscaa_vulture_Fortress":1,
+		"unscaa_longsword_Standard":3,
+		"unscaa_sabre_Standard":3,
+	},
+	"combatCapital":{
+		"UNSC_Frigate_marathon_defender":2,
+		"unscaa_pelican_Standard":5,
+		"unscaa_pelican_Combat":3,
+		"unscaa_vulture_Leader":2,
+		"unscaa_vulture_Command":2,
+		"unscaa_vulture_Fortress":2,
+		"unscaa_longsword_Standard":5,
+		"unscaa_sabre_Standard":5,
+	},
+	
+	
+	# hybrid ships with good combat and cargo capacity
+	"combatFreighterSmall":{
+
+	},
+	"combatFreighterMedium":{
+		
+	},
+	"combatFreighterLarge":{
+	},
+	
+	"civilianRandom":{
+	},
+
+	# carriers
+	"carrierSmall":{
+		"UNSC_Frigate_strident_Supportalt":2,
+		"UNSC_Frigate_strident_supporthev":2,
+		"unscaa_pelican_Standard":5,
+		"unscaa_pelican_Combat":3,
+		"unscaa_vulture_Leader":0.5,
+		"unscaa_vulture_Command":0.5,
+		"unscaa_vulture_Fortress":0.5,
+		"unscaa_longsword_Standard":0.5,
+		"unscaa_sabre_Standard":0.5,
+	},
+	"carrierMedium":{
+		"UNSC_Frigate_punic_assaultalt":2,
+		"UNSC_Frigate_punic_defense":2,
+		"UNSC_Frigate_punic_skirmish":2,
+		"unscaa_pelican_Standard":5,
+		"unscaa_pelican_Combat":5,
+		"unscaa_vulture_Leader":1,
+		"unscaa_vulture_Command":1,
+		"unscaa_vulture_Fortress":1,
+		"unscaa_longsword_Standard":3,
+		"unscaa_sabre_Standard":3,
+	},
+	"carrierLarge":{
+		"UNSC_Frigate_marathon_defender":2,
+		"UNSC_Frigate_punic_assaultalt":1.2,
+		"UNSC_Frigate_punic_defense":1.2,
+		"UNSC_Frigate_punic_skirmish":1.2,
+		"unscaa_pelican_Standard":5,
+		"unscaa_pelican_Combat":5,
+		"unscaa_vulture_Leader":2.5,
+		"unscaa_vulture_Command":2.5,
+		"unscaa_vulture_Fortress":2.5,
+		"unscaa_longsword_Standard":5,
+		"unscaa_sabre_Standard":5,
+	},
+
+	# phase ships
+	"phaseSmall":{
+	},
+	"phaseMedium":{
+	},
+	"phaseLarge":{
+	},
+	"phaseCapital":{
+	},
+
+	# freighters and such
+	"freighterSmall":{
+	},
+	"freighterMedium":{
+	},
+	"freighterLarge":{
+	},
+	
+	"tankerSmall":{
+	},
+	"tankerMedium":{
+	},
+	"tankerLarge":{
+	},
+	
+	"personnelSmall":{
+	},
+	"personnelMedium":{
+	},
+	"personnelLarge":{
+	},
+	
+	"linerSmall":{
+	},
+	"linerMedium":{
+	},
+	"linerLarge":{
+	},
+	
+	# utility ships
+	"tug":{
+	},
+	"crig":{
+	},
+	"utility":{
+	},
+	
+
+
+	# Old/unused below this line
+	"fastAttack":{
+	},
+
+	"escortSmall":{
+	},
+	"escortMedium":{
+	},
+	
+}

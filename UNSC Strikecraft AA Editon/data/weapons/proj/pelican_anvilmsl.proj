@@ -1,0 +1,41 @@
+{
+	"id":"pelican_anvilmsl",
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+	"sprite":"graphics/missiles/anvilii_msl.png",
+	"size":[5,11],	
+	"center":[3,5],
+	"collisionRadius":10,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[255,248,50,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":100, # purely visual
+	"fadeTime":0.8, # fadeout duration
+	"engineSpec":{"turnAcc":200,
+				  "turnRate":60,
+				  "acc":2220,
+				  "dec":740},
+	#"engineSpec":{"turnAcc":240,
+	#			  "turnRate":120,
+	#			  "acc":400,
+	#			  "dec":400},				  
+	"engineSlots":[{"id":"ES1",
+					"loc":[-8, 0],
+				    #"style":"MISSILE_MIDLINE",
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[255,174,33,255],
+						"contrailDuration":1.5,
+						"contrailWidthMult":1,
+						"contrailWidthAddedFractionAtEnd":2,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":15, # min segment length, in pixels
+						"contrailMaxSpeedMult":.1f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailSpawnDistMult":.25, # how far away from engine it starts
+						"contrailColor":[245,245,245,125],
+						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":2.0,
+				    "length":5.0,
+				    "angle":180.0}]
+}

@@ -1,0 +1,115 @@
+{
+  "hullName": "Pelican",
+  "hullId": "unsc_pelican",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/unsc_pelican.png",
+  "style": "MIDLINE",
+  "height": 63,
+  "width": 50,
+  "center": [25, 31.5],
+  "collisionRadius": 37,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 35,
+  "viewOffset": 0,
+  "builtInMods": [
+    "UNSC_hullconstruction",
+    "ground_support"
+  ],
+  "builtInWeapons": {
+    "WS0001": "pelicangun",
+    "WS0002": "pelicanmsl",
+    "WS0003": "pelicanmsl",
+    "WS0004": "unsc_pelicanbomb",
+    "WS0005": "unsc_pelicanbomb"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 0,
+      "locations": [13, 14]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 0,
+      "locations": [13, -14]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 120,
+      "angle": 0,
+      "locations": [25.5, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 0,
+      "locations": [12.5, 18.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": -0,
+      "locations": [12.5, -18.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-26.5, 7],
+      "length": 18,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 110,
+      "style": "LOW_TECH_FIGHTER"
+    },
+    {
+      "location": [-26.5, -7],
+      "length": 18,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 110,
+      "style": "LOW_TECH_FIGHTER"
+    },
+    {
+      "location": [5, 11],
+      "length": 10,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 110,
+      "style": "LOW_TECH_FIGHTER"
+    },
+    {
+      "location": [5, -11],
+      "length": 10,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 110,
+      "style": "LOW_TECH_FIGHTER"
+    }
+  ],
+  "bounds": [
+    -28.5, -11,
+    3, -12.5,
+    12.5, -23.5,
+    30, -0,
+    12.5, 23.5,
+    3, 12.5,
+    -28.5, 11
+  ]
+}
