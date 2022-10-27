@@ -1,0 +1,12 @@
+{
+    "id": "unscaa",
+    "name": "UNSC Strikecraft AA Edition",
+    "author": "Surveyor",
+    "version": "0.1",
+    "description": "Pilotable versions of the UNSC Sabre fighter and Longsword bomber.",
+    "gameVersion": "0.95.1a-RC6",
+    "dependencies": [
+        {"id":"armaa", "name":"Arma Armatura"},
+		{"id":"UNSC", "name":"United Nations Space Command v0.1d"}
+    ]
+}

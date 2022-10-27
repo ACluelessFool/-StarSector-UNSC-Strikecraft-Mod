@@ -1,0 +1,48 @@
+{
+  "id": "vultureac",
+  "specClass": "projectile",
+  "projectileSpecId": "vultureac_shot",
+  "type": "BALLISTIC",
+  "size": "SMALL",
+  "displayArcRadius": 250,
+  "turretSprite": "graphics/weapons/unscvulture_gau23_turret_base.png",
+  "turretGunSprite": "graphics/weapons/unscvulture_gau23_turret.png",
+  "hardpointSprite": "",
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    14.5,
+    0.5,
+    14.5,
+    -1.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    18,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 4,
+    "spread": 3,
+    "particleSizeMin": 1,
+    "particleSizeRange": 3,
+    "particleDuration": 0.15,
+    "particleCount": 4,
+    "particleColor": [
+      255,
+      243,
+      13,
+      200
+    ]
+  },
+  "fireSoundTwo": "vulture_gau24_fire"
+}

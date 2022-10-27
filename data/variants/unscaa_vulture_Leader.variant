@@ -1,0 +1,45 @@
+{
+  "variantId": "unscaa_vulture_Leader",
+  "hullId": "unscaa_vulture",
+  "displayName": "Leader",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 9,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "advancedshieldemitter",
+    "unstable_injector",
+    "insulatedengine"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "vultureac",
+        "WS0002": "vultureac"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "vulturemsl_vl",
+        "WS0004": "vulturemsl_vl"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "vulturemsl",
+        "WS0006": "vulturemsl"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "sabre_wing"
+  ]
+}
